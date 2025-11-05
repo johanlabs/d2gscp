@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="duckimg-scraper",
+    name="d2gscp",
     version="1.0.0",
     packages=find_packages(),
     install_requires=[
@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "duckimg = duckimg_scraper:main",
+            "duckimg = d2gscp:main",
         ],
     },
 )

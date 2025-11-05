@@ -1,6 +1,6 @@
-# 🦆 DuckImg Scraper
+# 🦆 d2gscp
 
-DuckImg Scraper is a command-line tool for scraping images from DuckDuckGo, designed to help in training AI models by collecting categorized images efficiently.
+d2gscp is a command-line tool for scraping images from DuckDuckGo, designed to help in training AI models by collecting categorized images efficiently.
 
 ## 🚀 Features
 - Supports categorized searches using `category=term1,term2` format.
@@ -44,7 +44,7 @@ from dockimg import download_images
 download_images("fruits=apple,banana", 20, use_subfolders=False)
 ```
 
-### Projects with using duckimg-scraper
+### Projects with using d2gscp
 
 Image-classification - https://github.com/Sem-Segredos-Tech/image-classification
 
